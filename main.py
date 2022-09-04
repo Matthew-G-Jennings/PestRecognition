@@ -75,6 +75,6 @@ for i in range(2, 200):
 
     output = cv2.rectangle(img1, start_point, end_point, (255, 0, 0), 10)
 
-    cv2.imshow('image', dif_gs_blur)
+    cv2.imshow('image', output)
     cv2.waitKey(0)
 cv2.destroyAllWindows()
